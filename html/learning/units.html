@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            font-size:50;
+        }
+        .box{
+            background-color: aquamarine;
+            margin: 10px;
+        }
+        .px{
+            width: 200px;
+        }
+        .vw{
+            width: 200px;
+        }
+        .cm{
+            width: 200px;
+        }
+        .em{
+            width: 10em;
+        }
+        .rems{
+            width: 1,3e,;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box px">i am 200px wide</div>
+        <div class="box vw">i am 10vw wide</div>
+        <div class="box cm">i am 10cm</div>
+    </div>
+    <!-- DIFFERENCE BETWEEN REM AND EM -->
+    <ul class="rems">
+        <li>one</li>
+        <li>two</li>
+        <li>three
+            <ul>
+                <li>three a</li>
+                <li>three b
+                    <ul>
+                        <li>three b a</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        
+    </ul>
+    <ul class="rems">
+        <li>one</li>
+        <li>two</li>
+        <li>three
+            <ul>
+                <li>three a</li>
+                <li>three b
+                    <ul>
+                        <li>three b a</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        
+    </ul>
+</body>
+</html>

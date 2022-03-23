@@ -1,0 +1,51 @@
+li{
+    list-style-type: none;
+    margin-left:2rem;
+}
+.welcomeimases>img{
+    height:800px;
+    width:1200px;  
+}
+.footer{
+    background-color: aquamarine;
+    color: brown;
+}
+.footer>p{
+    font-size: 20px;
+    text-align: center;
+
+}.navbar>nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex; 
+    padding-top: 8px;
+    font-size: 1.3rem;
+    
+    }
+
+    img[src="imases/lap.jpeg"]{
+        height:100vh;
+        width:95vw;
+        margin-left:2.5vw;
+        margin-right:2.5vw; 
+}
+.skills{
+    display: flex;
+
+}
+.skills>div{
+    width: 30vhw;
+    text-align: center;
+    margin-top: 2rem;
+}
+:any-link{
+    color: black;
+    
+}
+a{
+    text-decoration: dotted;
+}a:hover{
+    color: rgb(243, 9, 9);
+}
