@@ -41,6 +41,21 @@ console.log("line 57\n" + sayHi);
 // sayHi();
 console.log("line 59\n" + sayBye);
 // sayBye();
-//abcd(); // error abcd is not defined
+//abcd(); // error abcd is not defineds
 
+
+// 3) IIFE-> Imediately invoke function expression
+
+function add(a, b) {
+    return a + b
+}
+ add (2,3);
+
+ let additionIIFE =(function add(a,b) {
+    console.log(a+b);
+ })(20,30);
+ console.log(aditionIIFE)
+
+// console.log(""+additionIIFE);
+// console.log(additionIIFE(20, 30));
  
