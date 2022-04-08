@@ -45,10 +45,11 @@ console.log(cars);
 let array2d = [
     [1,2,3],
     [4,5,6],
-    [7,8,9]
-]; //array of string
+    [7,8,9];
+]; 
+//array of string["a","b"."c"]
 
-// array of number
+// array of number[1,2,3]
 console.log(array2d);// print 2d array
 console.table(array2d)//print table in 2d array
 
